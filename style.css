@@ -62,9 +62,36 @@ body {
   color: #444;
 }
 
-.filters button {
-  color: #2e2f46;
-  background-color: #fff;
-  border: none;
-  cursor: pointer;
+.taskbox {
+  margin-top: 20px;
+  margin-right: 5px;
+  padding: 0 20px 10px 25px;
+}
+
+.taskbox.overflow {
+  overflow-y: auto;
+  max-height: 300px;
+}
+
+taskbox::-webkit-scrollbar {
+  width: 5px;
+}
+
+.taskbox::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 25px;
+}
+
+.taskbox::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 25px;
+}
+
+.taskbox .task {
+  list-style: none;
+  font-size: 17px;
+  margin-bottom: 20px;
+  padding-bottom: 16px;
+  align-items: flex-start;
+  border-bottom: 1px solid #ccc;
 }
