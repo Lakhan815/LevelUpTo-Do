@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="player">
+        <div class="playername">
+          <h1>Player 1</h1>
+        </div>
+
+        <div class="container">
+          <div class="playerlevel" id="myLevel">1</div>
+          <div id="myProgress">
+            <div class="progressbar" id="myBar">0%</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="taskinput">
+        <input type="text" placeholder="Add task here" />
+        <button type="submit" required>Add</button>
+        <div class="days">
+          <label
+            ><input
+              id="daily"
+              type="radio"
+              value="daily"
+              name="daytype"
+            />Daily</label
+          >
+          <label
+            ><input
+              id="todo"
+              type="radio"
+              value="todo"
+              checked
+              name="daytype"
+            />To-Do</label
+          >
+          <span id="todo" class="active"></span>
+          <label
+            ><input
+              id="weekly"
+              type="radio"
+              value="weekly"
+              name="daytype"
+            />Weekly</label
+          >
+        </div>
+        <div class="worktype">
+          <label
+            ><input
+              id="knowledge"
+              type="radio"
+              value="knowledge"
+              name="growthcat"
+            />Knowledge</label
+          >
+          <label
+            ><input
+              id="strength"
+              type="radio"
+              value="strength"
+              name="growthcat"
+            />Strength</label
+          >
+          <label
+            ><input
+              id="selfcare"
+              type="radio"
+              value="selfcare"
+              name="growthcat"
+            />Self-Care</label
+          >
+          <label
+            ><input
+              id="housework"
+              type="radio"
+              value="housework"
+              name="growthcat"
+            />Housework</label
+          >
+        </div>
+        <div class="controls">
+          <div class="filters">
+            <select name="filter" id="filter">
+              <option value="all">All</option>
+              <option value="daily">Daily</option>
+              <option value="weekly">Weekly</option>
+              <option value="todo">To-Do</option>
+              <option value="knowledge">Knowledge</option>
+              <option value="strength">Strength</option>
+              <option value="selfcare">Self-Care</option>
+              <option value="housework">Housework</option>
+            </select>
+          </div>
+        </div>
+      </div>
+      <ul class="taskbox"></ul>
+    </div>
+  </body>
+</html>
