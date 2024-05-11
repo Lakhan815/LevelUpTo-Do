@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/LevelUpTo-Do/static/css/main.f855e6bc.css",
+    "main.js": "/LevelUpTo-Do/static/js/main.f0df1e00.js",
+    "static/js/453.9060257c.chunk.js": "/LevelUpTo-Do/static/js/453.9060257c.chunk.js",
+    "static/media/logo.svg": "/LevelUpTo-Do/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/LevelUpTo-Do/index.html",
+    "main.f855e6bc.css.map": "/LevelUpTo-Do/static/css/main.f855e6bc.css.map",
+    "main.f0df1e00.js.map": "/LevelUpTo-Do/static/js/main.f0df1e00.js.map",
+    "453.9060257c.chunk.js.map": "/LevelUpTo-Do/static/js/453.9060257c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f855e6bc.css",
+    "static/js/main.f0df1e00.js"
+  ]
+}
